@@ -7,7 +7,9 @@ Backbone.Collections = Backbone.Collections || {};
 
     Backbone.Collections.Authors = Backbone.Collection.extend({
 
-        model: Backbone.Models.Authors
+        model: Backbone.Models.Author,
+        url: 'http://safe-dusk-6297.herokuapp.com/api/authors'
+      
 
     });
 

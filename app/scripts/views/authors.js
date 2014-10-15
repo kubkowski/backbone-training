@@ -18,6 +18,7 @@ Backbone.Views = Backbone.Views || {};
         events: {},
 
         initialize: function () {
+            console.log("2");
             this.listenTo(this.model, 'change', this.render);
         },
 

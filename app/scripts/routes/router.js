@@ -7,7 +7,7 @@ Backbone.Routers = Backbone.Routers || {};
 
     Backbone.Routers.Router = Backbone.Router.extend({
     	routes: {
-    		'': 'authors'
+    		'/#/authors': 'authors'
     	}
     });
 

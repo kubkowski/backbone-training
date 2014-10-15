@@ -7,7 +7,7 @@ Backbone.Collections = Backbone.Collections || {};
 
     Backbone.Collections.Books = Backbone.Collection.extend({
 
-        model: Backbone.Models.Books
+        model: Backbone.Models.Book
 
     });
 

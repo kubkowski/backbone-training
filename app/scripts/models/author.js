@@ -5,11 +5,12 @@ Backbone.Models = Backbone.Models || {};
 (function () {
     'use strict';
 
-    Backbone.Models.Publishers = Backbone.Model.extend({
+    Backbone.Models.Author = Backbone.Model.extend({
 
-        url: '',
+        urlRoot: 'http://safe-dusk-6297.herokuapp.com/api/authors',
 
         initialize: function() {
+            console.log('This model has been initialized.');
         },
 
         defaults: {

@@ -1,7 +1,7 @@
 /*global Library, $*/
 
 
-window.Library = {
+window.Backbone = {
     Models: {},
     Collections: {},
     Views: {},
@@ -14,5 +14,5 @@ window.Library = {
 
 $(document).ready(function () {
     'use strict';
-    Library.init();
+    Backbone.init();
 });

@@ -10,7 +10,6 @@ Backbone.Collections = Backbone.Collections || {};
         model: Backbone.Models.Author,
         url: 'http://safe-dusk-6297.herokuapp.com/api/authors'
       
-
     });
 
 })();

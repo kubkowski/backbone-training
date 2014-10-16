@@ -5,7 +5,7 @@ Backbone.Models = Backbone.Models || {};
 (function () {
     'use strict';
 
-    Backbone.Models.Publisher = Backbone.Model.extend({
+    Backbone.Models.Publishers = Backbone.Model.extend({
 
         url: '',
 
